@@ -99,7 +99,7 @@ const Login = () => {
                   {isSignInForm ? "Sign In" : "Sign Up"}
                 </button>
                 <p className="text-left text-black text-sm hover:underline hover:cursor-pointer hover:underline-offset-2" onClick={toggleSignInForm}>
-                  {isSignInForm ? "New to Netflix? Sign Up Now"  :  "Already a user? Sign In Now"}
+                  {isSignInForm ? "New to Movie Nest? Sign Up Now"  :  "Already a user? Sign In Now"}
                 </p> 
               </div>
           </form>
